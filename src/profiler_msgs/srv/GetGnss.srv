@@ -1,0 +1,4 @@
+int16 timeout
+---
+geographic_msgs/GeoPoint gnss
+bool success
