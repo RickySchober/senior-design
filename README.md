@@ -1,4 +1,4 @@
-# 🌊 Waypoint Profiler – Autonomous Water Column Sampling Robot
+# Waypoint Profiler – Autonomous Water Column Sampling Robot
 
 The **Waypoint Profiler** is an autonomous surface and underwater vehicle designed to help marine researchers collect valuable water column data and samples.  
 It can be **launched from shore**, navigate to user-defined GPS waypoints, and perform **vertical dives** to sample oxygen, pH, and other measurements at specified depths.  
