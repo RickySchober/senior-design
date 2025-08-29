@@ -43,6 +43,13 @@ The profiler is tethered in both videos with a rope as a failsafe but a final pr
   - IMU provides orientation control while GPS provides position at surface
 
 ---
+
+## Component Block Diagram
+<p align="center">
+  <img src="component block diagram.drawio.png" width="700" alt="Waypoint Profiler Component Block Diagram"/>
+</p>
+
+---
 ## System Architecture
 
 The Waypoint Profiler’s computing and control are split across two levels:
@@ -56,15 +63,10 @@ The Waypoint Profiler’s computing and control are split across two levels:
   - Runs higher-level computation in parallel processes.  
   - Implements a **ROS-based state machine** that coordinates surface navigation, diving, and sampling behaviors.  
   - Communicates with the Arduino over USB serial to send commands and receive sensor feedback.  
-  - Connects to a **wireless router** for communication with the **Base Station**.  
+  - Connects to a **router** for wireless communication with the **Base Station** at water surface.  
 
 This architecture balances **real-time reliability** (Arduino) with **computational flexibility** (Raspberry Pi), allowing robust autonomous operation in a marine environment.  
 
----
 
-## 🔎 Component Block Diagram
-<p align="center">
-  <img src="media/component_block_diagram.png" width="700" alt="Waypoint Profiler Component Block Diagram"/>
-</p>
 
 
